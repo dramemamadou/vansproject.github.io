@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html>
+  <!-- On ouvre la zone qui contient du html -->
+
+  <!-- On crée l'entête de la page -->
+
+  <head>
+    <!-- version 2.2 -->
+
+    <meta charset="utf-8">
+
+
+    <title>
+      skate spot
+    </title>
+ <link rel="stylesheet" href="../materialize/css/materialize.min.css">
+  <link rel="stylesheet" href="../css_lib/mdstyle.css">
+    <link rel="stylesheet" href="../css_fuji/vans_.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" integrity="sha256-a2tobsqlbgLsWs7ZVUGgP5IvWZsx8bTNQpzsqCSm5mk=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../font/css/all.min.css">
+
+  </head>
+
+  <body id="body">
+     <div class="navbar-fixed">
+    <nav class="text-center">
+        <div class="nav-wrapper black ">
+            <a href="#!" class="brand-logo center"><img src="vans_img/logo.jpg" height="45" width="60" alt=""></a>
+
+          <a href="index.html" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">dehaze</i></a>
+          <ul class="right hide-on-med-and-down text-center">
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="../index.html">Programme</a></li>
+            <li><a href="Inscription.html">Inscription</a></li>
+            <li><a href="info.html">Infos</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+    </div>
+    <ul class="sidenav red darken-3 sidenav-close"red darken-3 id="mobile-demo">
+      <li ><a href="../index.html">Accueil</a></li>
+      <li><a href="../index.html">Programme</a></li>
+      <li><a href="inscription.html">Inscription</a></li>
+      <li><a href="info.html">Infos</a></li>
+    </ul>
+<div id="conteneur_principal">
+  
+
+      <div id="banniere_principale" class="animated slideInUp delay-1s" ></div>
+
+
+
+                                        </div>
+                                         <!-- début de formulaire -->
+                                        <div id="formulaire" class="my-5">
+                                          <h1 class="my-3 text-center">
+                                            Inscription
+                                          </h1>
+                                          <h3 class="my-3 text-center">
+                                          je participe
+                                        </h3>
+                                        <form class="lf-hauteur-min-150px  black" action="php/reponse.php" method="post">
+                              <!-- on crée une étiquette pour l'input concerné -->
+                              <label for="le_nom">
+                               Nom
+                              </label>
+                              <!-- on  crée un input /champ de formulaire destiné à recueillir du  texte -->
+                              <input id="le_nom" class="grey lighten-5" type="text" name="nom_envoye" placeholder="Entrer votre nom">
+
+                              <label for="">
+                              prénom
+                              </label>
+                              <input id="prenom"class="grey lighten-3" type="text" name="" value="" placeholder="Entrer votre prenom">
+                              </label>
+                              <label for="l_adresse">
+                              Adresse
+                            </label>
+                            <input id="l_adresse" class="grey lighten-3" type="text" name="adresse_a_envoyer"
+                            placeholder="Entrez votre adresse">
+
+                            <label for="le_tel">
+                              Téléphone
+                            </label>
+                            <input id="le_tel" class="grey lighten-3" type="tel" name="tel_a_envoyer"
+                            placeholder="Entrez votre numéro de téléphone">
+
+                            <input id="input_center" class="animated infinite bounceIn delay-2s"type="submit" name="" value="J'envoie">
+                            </div>
+
+
+
+
+                              <!--
+                              1 input + label pour le prénom
+                              1 input+ label  pour l'adresse
+                              1 input+ label  pour le tel
+                              1 input+ label  pour le nombre de makis
+                              1 input+ label  pour le nombre de doriyakis
+                              1 input+ label  pour le nombre de ramens -->
+
+
+
+                                  </form>
+
+                                  <!-- fin de formulaire -->
+<!-- début de footer -->
+<div id="footer" class="my-5">
+
+  <div class="row text-center">
+              <div class="col l6 s16">
+
+        <div class="colo c1">1</div>
+
+        <div class="colo c2">2</div>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">
+                  <h4> suivre l'événement</h2>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/vans/?hl=fr"><i class="fab fa-instagram"></i> </a></li>
+                  <li><a class= "grey-text text-lighten-3" href="https://fr.linkedin.com/company/vans"><i class="fab fa-linkedin"></i></a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/VansEurope/?brand_redir=25297200265"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/user/VansShoes66"><i class="fab fa-youtube"></i></h5></a></li>
+
+                </ul>
+              </div>
+            </div>
+</div>
+<!-- fin de footer -->
+</div>
+</div>
+
+
+<!-- ici on  a les liens du fichier js -->
+ <script src="../jquery/jquery-3.4.1.min.js"></script>
+ <script src="../materialize/js/materialize.min.js"></script>
+ <script src="../js/mes_scripts.js"></script>
+
+  </body>
+
+</html>
